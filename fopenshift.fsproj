@@ -9,4 +9,9 @@
     <Compile Include="Program.fs" />
   </ItemGroup>
 
+  <ItemGroup>
+    <PackageReference Include="Giraffe" Version="3.6.0" />
+    <PackageReference Include="Microsoft.AspNetCore.App" Version="2.2.3" />
+  </ItemGroup>
+
 </Project>
