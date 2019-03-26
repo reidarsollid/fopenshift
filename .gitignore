@@ -336,3 +336,6 @@ ASALocalRun/
 !.vscode/launch.json
 !.vscode/extensions.json
 
+/paket.*
+.paket
+*.sln

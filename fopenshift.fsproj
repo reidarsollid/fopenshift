@@ -10,8 +10,13 @@
   </ItemGroup>
 
   <ItemGroup>
+    <PackageReference Include="FAKE" Version="5.8.4" />
     <PackageReference Include="Giraffe" Version="3.6.0" />
     <PackageReference Include="Microsoft.AspNetCore.App" Version="2.2.3" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <None Include="build.fsx" />
   </ItemGroup>
 
 </Project>
